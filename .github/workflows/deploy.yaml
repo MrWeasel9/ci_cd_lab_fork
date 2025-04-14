@@ -69,7 +69,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build Docker image
-        run: docker build -t ghcr.io/MrWeasel9/ci_cd_lab_fork:latest .
+        run: docker build -t ghcr.io/mrweasel9/ci_cd_lab_fork:latest .
 
       - name: Push Docker image
-        run: docker push ghcr.io/MrWeasel9/ci_cd_lab_fork:latest
+        run: docker push ghcr.io/mrweasel9/ci_cd_lab_fork:latest
