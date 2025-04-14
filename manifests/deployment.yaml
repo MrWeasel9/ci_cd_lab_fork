@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/mrweasel9/ci_cd_lab:latest
+          image: ghcr.io/mrweasel9/ci_cd_lab_fork:latest
           ports:
             - containerPort: 8080
