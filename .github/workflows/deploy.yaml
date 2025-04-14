@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: go mod download
 
-      # Run tests
+      # Run go tests
       - name: Run tests
         run: go test ./main_test.go
 
